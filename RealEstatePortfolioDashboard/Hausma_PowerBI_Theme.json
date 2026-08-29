@@ -1,0 +1,71 @@
+{
+  "name": "Hausma Real Estate",
+  "dataColors": [
+    "#1E4FA0",
+    "#4B7FD1",
+    "#7FA6E0",
+    "#0A2B63",
+    "#D4537E",
+    "#8AC0EE",
+    "#2E2E2E",
+    "#B8C7E0"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1A1A1A",
+  "tableAccent": "#1E4FA0",
+  "good": "#1E9E75",
+  "neutral": "#E8A33D",
+  "bad": "#D4537E",
+  "maximum": "#1E4FA0",
+  "center": "#7FA6E0",
+  "minimum": "#EAF0FB",
+  "null": "#B0B0B0",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } } }],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#0A2B63" } },
+            "fontSize": 13,
+            "bold": true
+          }
+        ],
+        "outspacePane": [
+          { "backgroundColor": { "solid": { "color": "#F4F7FC" } } }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#0A2B63" } },
+            "fontSize": 24,
+            "bold": true
+          }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#4B7FD1" } }, "fontSize": 11 }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#0A2B63",
+      "fontSize": 14
+    },
+    "header": {
+      "fontFace": "Segoe UI",
+      "color": "#1A1A1A",
+      "fontSize": 11
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#1A1A1A",
+      "fontSize": 10
+    }
+  }
+}
