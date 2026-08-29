@@ -63,6 +63,14 @@ The dataset went through several deliberate revisions as issues surfaced during 
 - Position % chart: where each country's price falls as a percentage between the market floor (0%) and ceiling (100%).
 - Raw benchmark reference table, with Benchmark Tier and Property Type slicers.
 
+## Screenshots
+
+<img width="1000" alt="Page 1 - Project Portfolio" src="RealEstatePortfolioDashboard/Screenshots/Pg1.png" />
+<img width="1000" alt="Page 1 - Project Portfolio (full-screen Gantt toggled)" src="RealEstatePortfolioDashboard/Screenshots/Pg1.5.png" />
+<img width="1000" alt="Page 2 - Investment and Profitability" src="RealEstatePortfolioDashboard/Screenshots/Pg2.png" />
+<img width="1000" alt="Page 3 - Market Benchmark" src="RealEstatePortfolioDashboard/Screenshots/Pg3.png" />
+<img width="1000" alt="Data Model (Star Schema)" src="RealEstatePortfolioDashboard/Screenshots/Model.png" />
+
 ## Key technical issues encountered and fixed
 
 This project surfaced several real, instructive bugs — documented here rather than hidden, since diagnosing and fixing them was a meaningful part of the work:
@@ -82,6 +90,7 @@ A custom Power BI theme (JSON) was built to match the reference brochure's navy/
 - All financial figures are synthetic and illustrative, calibrated against publicly available reference figures — not real data from any company.
 - The classic Map visual (Page 1) is on Microsoft's deprecation path in favor of Azure Maps; used here since it remains functional, with awareness that a production report would migrate to the newer visual.
 - Market benchmark tiers (Nationwide/Premium/Ultra-Premium) are blended via averaging when a chart doesn't filter to one specific tier — a simplification made explicit rather than silently hidden.
+- No mobile-optimized layout was built for this project — prioritized moving on to a third portfolio piece over adding a phone-view page.
 
 ## Skills demonstrated
 
